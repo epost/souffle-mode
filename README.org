@@ -1,0 +1,5 @@
+#+title:souffle-mode
+
+Support for editing [[http://www.souffle-lang.org][Souffle]] Datalog files in Emacs.
+
+(c) 2017 Erik Post of Shinsetsu.
