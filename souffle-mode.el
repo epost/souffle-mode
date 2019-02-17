@@ -35,4 +35,7 @@
   (setq-local comment-end "")
 )
 
+;;;###autoload
+(add-to-list 'auto-mode-alist '("\\.dl\\'" . souffle-mode))
+
 (provide 'souffle-mode)
