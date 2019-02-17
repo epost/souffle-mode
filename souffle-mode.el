@@ -25,6 +25,7 @@
         ("\\number\\|symbol" . font-lock-builtin-face)
         (":" . font-lock-constant-face)))
 
+;;;###autoload
 (define-derived-mode souffle-mode fundamental-mode "souffle"
   "major mode for editing Souffle datalog files."
   :syntax-table souffle-mode-syntax-table
@@ -34,4 +35,4 @@
   (setq-local comment-end "")
 )
 
-(provide 'souffle)
+(provide 'souffle-mode)
